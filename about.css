@@ -1,0 +1,134 @@
+
+ .description{
+    width: 100%;
+    /* background-color: brown; */
+    margin: 3.5%;
+}
+.heading{
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+/* .heading::before{
+    content: "";
+    width: 4rem;
+    top: 92px;
+    border-top:2.5px solid brown;
+    position: absolute;
+} */
+/* .heading::after{
+    content: "";
+    width: 2.5rem;
+    left: 320px;
+    top: 99px;
+    border-top:2.5px solid teal;
+    position: absolute;
+
+} */
+.para{
+    margin: 18px 0px 16px 0px;
+    
+}
+.para p{
+    margin-bottom: 10px;
+}
+#location{
+ 
+    width: 100%;
+}
+#location .fa-map-marker-alt{
+    color: brown;
+}
+.locations .fa-map-pin{
+    color: teal;
+    margin-left: 1%;
+
+}
+hr{
+    margin-bottom: 20px;
+
+}
+.row{
+    display: flex;
+}
+.col-1{
+    width: 63%;
+    padding-top: 10px;
+    box-shadow: -14px 10px 20px 4px #00000078;
+    /* background-attachment: fixed; */
+    overflow: hidden;
+}
+.col-3{
+    width: 10%;
+}
+.edu-head {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+#hredu{
+    border: 1px solid brown;
+    margin-left: 0;
+}
+#hrski{
+    border: 1px solid teal;
+}
+.col-1 ul{
+    list-style: none;
+    padding-left: 0;
+}
+.col-2{
+    width: 27%;
+    height: fit-content;
+    padding-top: 10px;
+    box-shadow: -14px 10px 20px 4px #00000078;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.col-2 ul{
+    list-style: none;
+    padding-left: 0;
+}
+.col-2 .skills li{
+    font-size: 1.3rem;
+    margin: 10px 0;
+    padding: 10px;
+    padding-left: 10px;
+    transition: all 0.5s ease;
+}
+.skills li:hover{
+    font-size: 1.5rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* transform: scale(1.2); */
+    padding-left: 0;
+   
+}
+.skills li .fas{
+    font-size: 1rem;
+    
+}
+.skills #specific{
+    color: white;
+}
+.skills li:nth-child(odd){
+    color: brown;
+}
+.skills li:nth-child(even){
+    color: teal;
+}
+
+
+.skills .hover-show{
+display: none;
+}
+ h3{
+    font-weight: 300;
+}
+.col-1 ul .grad, .col-1 ul .ten, .col-1 ul .twelve {
+    padding-left: 10px;
+
+}
+

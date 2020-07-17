@@ -1,0 +1,26 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-2 , .project-1{
+min-height: 20vh;
+width: 45%;
+background-color: brown;
+overflow-wrap: break-word;
+box-sizing: border-box;
+    box-shadow: -14px 10px 20px 4px #00000078;
+transition: all 0.5s ease;
+}
+
+.project-2{
+background-color: teal;
+}
+
+.container-p i{
+    margin-right: 10px;
+}
+.details{
+    list-style: none;
+    padding:10px;
+}

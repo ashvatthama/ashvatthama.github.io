@@ -1,0 +1,15 @@
+/* line: 188 */
+/* https://ashvatthama.github.io/colorgame.io/  target="_blank"  */
+
+
+@media(max-width: 768px){
+    .links{
+        padding: 0;
+    }
+    .brandt .fab{
+        font-size: 2rem;
+    }
+    .colc-1 h3{
+        font-size: initial;
+    }
+}
